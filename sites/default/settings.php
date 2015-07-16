@@ -215,9 +215,9 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'scholarlyprem',
+      'database' => 'staging',
       'username' => 'root',
-      'password' => 'root',
+      'password' => 'l1nuxw3b14!',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
