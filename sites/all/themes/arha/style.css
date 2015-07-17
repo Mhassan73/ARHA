@@ -685,9 +685,9 @@ top:0; left: 0; }
 
 .node-mt .node-main-content.full-width { margin-left: 0; }
 
-/*Taxonomy term reference*/
+/*Taxonomy term reference
 .field-type-taxonomy-term-reference { display: block; overflow: hidden; position: relative; font-size: 11px; margin: 15px 0 30px 0; clear: both; }
-
+*/
 .node-teaser .field-type-taxonomy-term-reference { margin: 15px 0 10px 0; }
 
 .field-type-taxonomy-term-reference .field-item { display:inline; margin-right: 2px; }
@@ -733,6 +733,9 @@ text-align: left; padding: 0 5px; }
 .comment ul.links li a:hover { background: transparent; text-decoration: underline; color: #4187d1; }
 
 .indented { margin-left: 75px; }
+
+/* to hide commenting on job nodes */
+.node-job #comments { display: none; }
 
 @media (max-width: 1199px) {
 	.comment .content { width:80%; }
