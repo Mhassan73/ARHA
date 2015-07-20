@@ -200,7 +200,7 @@ h1.title { margin-top:0; margin-bottom: 20px; }
 /*Blocks*/
 .block { padding: 0 0 25px 0; }
 
-.header-top-area .block:first-child:last-child, .header-top-area .block { padding: 10px 0; }
+.header-top-area .block:first-child:last-child, .header-top-area .block { padding: 5px 0 0; }
 
 .header-top-area .block:first-child { padding: 20px 0 10px; }
 
@@ -734,8 +734,10 @@ text-align: left; padding: 0 5px; }
 
 .indented { margin-left: 75px; }
 
-/* to hide commenting on job nodes */
+/* to hide commenting on job, event and article nodes */
 .node-job #comments { display: none; }
+.node-article #comments { display: none; }
+.node-mt-event #comments { display: none; }
 
 @media (max-width: 1199px) {
 	.comment .content { width:80%; }
