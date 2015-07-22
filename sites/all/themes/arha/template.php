@@ -776,7 +776,7 @@ function arha_form_alter(&$form, &$form_state, $form_id) {
 	if ($form_id == 'search_block_form') {
 	unset($form['search_block_form']['#title']);
 	$form['search_block_form']['#title_display'] = 'invisible';
-	$form_default = t('Enter terms then hit Search...');
+	$form_default = t('I am looking for ...');
 	$form['search_block_form']['#default_value'] = $form_default;
 
 	$form['actions']['submit']['#attributes']['value'][] = '';
