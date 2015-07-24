@@ -789,14 +789,18 @@ text-align: left; padding: 0 5px; }
 .views-row.col-md-3:nth-child(4n+1) { clear:both; }
 }
 
-/*Node type: Faculty Staff & Student - Layout*/
-.node-type-mt-student h1#page-title, .node-type-mt-faculty h1#page-title { display: none; }
+/*Node type: People - Layout*/
+/*.node-type-mt-student h1#page-title, .node-type-mt-faculty h1#page-title { display: none; }*/
+.node-type-people h1#page-title { display: none; }
 
-.node-mt-faculty h1.node-title, .node-mt-student h1.node-title { margin-top: 0; }
+/*.node-mt-faculty h1.node-title, .node-mt-student h1.node-title { margin-top: 0; }*/
+.node-people h1.node-title { margin-top: 0; }
 
-.field-name-field-mt-academic-title { margin:-10px 0 15px; }
+/*.field-name-field-mt-academic-title { margin:-10px 0 15px; }*/
+.field-name-field-academic-title { margin:-10px 0 15px; }
 
-.node-mt-faculty.node.node-teaser, .node-mt-student.node.node-teaser { padding-bottom: 10px; border-bottom: 1px solid #acacac; }
+/*.node-mt-faculty.node.node-teaser, .node-mt-student.node.node-teaser { padding-bottom: 10px; border-bottom: 1px solid #acacac; }*/
+.node-people.node.node-teaser { padding-bottom: 10px; border-bottom: 1px solid #acacac; }
 
 .photo-wrapper { float: left; width: 100%; margin-top:10px; max-width: 205px; }
 
@@ -821,7 +825,26 @@ text-align: left; padding: 0 5px; }
 	.article-content.custom-width, .node-teaser .article-content.custom-width { margin-left: 0; }
 }
 
-/*View Faculty Staff & Students*/
+/*View People*/
+.view-people .views-row { margin-bottom: 35px; padding-bottom: 15px; border-bottom: 1px solid #acacac; }
+
+.view-people h3, .view-people h3 a { margin: 0; line-height: 1.2; }
+
+.view-people .views-field-field-academic-title { margin-bottom: 10px; }
+
+.views-field-field-photo .field-content { float: left; margin:5px 20px 10px 0; max-width: 150px; }
+
+.views-field-field-photo img, .field-name-field-photo { border: 1px solid #e5e5e5; }
+
+.footer-area .views-field-field-photo img, .footer-area .field-name-field-photo { border: none; }
+
+.views-field-field-contact-info p:last-child { padding-bottom: 0; }
+
+@media (max-width: 480px) { 
+	.views-field-field-contact-info { float: left; }
+}
+
+/*View Faculty Staff & Students
 .view-faculty-staff .views-row, .view-students .views-row { margin-bottom: 35px; padding-bottom: 15px; border-bottom: 1px solid #acacac; }
 
 .view-faculty-staff h3, .view-faculty-staff h3 a { margin: 0; line-height: 1.2; }
@@ -840,7 +863,7 @@ text-align: left; padding: 0 5px; }
 
 @media (max-width: 480px) { 
 	.views-field-field-mt-contact-info { float: left; }
-}
+}*/
 
 /*Faculty courses view*/
 #block-views-faculty-courses-block h2.title { margin: 3px 0 0 0; padding: 12px 12px 12px 75px; font-size: 22px; font-weight: 700; background-color: #e4e4e4;
@@ -1077,7 +1100,8 @@ background-color: rgba(37,37,37,0.9); }
 /*Accordion*/
 .field-group-accordion-wrapper { margin: 40px 0; }
 
-.group-mt-faculty-details { margin: 40px 0 0 0; }
+/*.group-mt-faculty-details { margin: 40px 0 0 0; }*/
+.group-people-details { margin: 40px 0 0 0; }
 
 .field-group-accordion * { -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; }
 
