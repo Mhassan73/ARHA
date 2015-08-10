@@ -215,9 +215,9 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'staging',
+      'database' => 'arha',
       'username' => 'root',
-      'password' => 'l1nuxw3b14!',
+      'password' => 'root',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',

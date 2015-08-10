@@ -376,7 +376,7 @@ function arha_preprocess_html(&$variables) {
 			if(($(this).scrollTop() > headerTopHeight+headerHeight) && ($(window).width() > 767)) {
 				$("body").addClass("onscroll");
 				if (($("#site-name").length > 0) && ($("#logo").length > 0)) {
-					$(".onscroll #logo").addClass("hide");
+					$(".onscroll #logo").addClass("");
 				}
 
 				if ($("#banner").length > 0) { 
