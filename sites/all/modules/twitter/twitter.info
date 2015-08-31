@@ -6,13 +6,12 @@ files[] = twitter_views_field_handlers.inc
 files[] = tests/core.test
 files[] = tests/input_filters.test
 dependencies[] = oauth_common
-dependencies[] = views
 dependencies[] = entity
 configure = admin/config/services/twitter
 
-; Information added by Drupal.org packaging script on 2015-07-14
-version = "7.x-6.0-alpha2+21-dev"
+; Information added by Drupal.org packaging script on 2015-08-30
+version = "7.x-6.0"
 core = "7.x"
 project = "twitter"
-datestamp = "1436871278"
+datestamp = "1440928740"
 
